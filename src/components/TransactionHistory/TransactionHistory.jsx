@@ -7,7 +7,7 @@ export default function TransactionHistory({ items }) {
         <tr>
           <th>Type</th>
           <th>Amount</th>
-          <th>Currency lksjdbvlk\jsdbv</th>
+          <th>Currency</th>
         </tr>
       </thead>
 
