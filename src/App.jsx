@@ -3,7 +3,7 @@ import Profile from './components/Profile/Profile';
 import userData from './userData.json';
 import friends from './friends.json';
 import FriendList from './components/FriendList/FriendList';
-import Transactions from './Transactions.json';
+import transactions from './transactions.json';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 import "modern-normalize";
 import './App.css'
@@ -19,7 +19,7 @@ export default function App() {
         stats={userData.stats}
       />
       <FriendList friends={friends} />
-      <TransactionHistory items={Transactions} />
+      <TransactionHistory items={transactions} />
     </>
   );
 }
